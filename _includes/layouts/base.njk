@@ -28,8 +28,11 @@
 
   /* Set the width of the sidebar to 120px */
   .w3-sidebar {
-    width: 120px;
+    width: 100px;
     background: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
@@ -65,12 +68,13 @@
       {%- for entry in collections.all | eleventyNavigation %}
       <a href="{{ entry.url | url }}"
         class="w3-bar-item w3-button w3-padding-large {% if entry.url == page.url %} w3-black {% else %} w3-hover-black {% endif %}">
-        <i class="fa {{ navFA[entry.title] }} w3-xxlarge"></i>
+        <i class="fa {{ navFA[entry.title]}} w3-xxlarge"></i>
         <p>{{ entry.title }}</p>
       </a>
       {%- endfor %}
     </div>
   </nav>
+
 
   <!-- Navbar on small screens (Hidden on medium and large screens) -->
   <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
