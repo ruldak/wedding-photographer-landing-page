@@ -2,213 +2,296 @@
 layout: layouts/home.njk
 fa-icon: 'fa-home'
 eleventyNavigation:
-  key: Home
-  order: 1
-  url: /#
+key: Home
+order: 1
+url: /#
 ---
 <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
- <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> {{ metadata.title }}.</h1>
-  <p>Photographer and Web Designer.</p>
-  <img src="{{ 'img/w3images/author.jpg' | url }}" alt="boy" class="w3-image w3-circle" style="width:250px; height:250px; object-fit: cover;">
+  <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> {{ metadata.title }}.</h1>
+  <p>Photographer</p>
+  <img src="{{ 'img/w3images/author_2.jpg' | url }}" alt="boy" class="w3-image w3-circle"
+    style="width:250px; height:250px; object-fit: cover;">
 </header>
 
 
 <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">My Name</h2>
-    <hr style="width:200px" class="w3-opacity">
-    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
-    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-    <p class="w3-wide">Photography</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-    </div>
-    <p class="w3-wide">Web Design</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-    </div>
-    <p class="w3-wide">Photoshop</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div><br>
-    
-    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">11+</span><br>
-        Partners
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">55+</span><br>
-        Projects Done
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">89+</span><br>
-        Happy Clients
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">150+</span><br>
-        Meetings
-      </div>
-    </div>
+<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+  <h2 class="w3-text-light-grey">Jhon Doe</h2>
+  <hr style="width:200px" class="w3-opacity">
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, eligendi. Tempore molestias mollitia nihil
+    similique culpa quibusdam, aperiam molestiae placeat esse. Ipsa harum repudiandae expedita deleniti natus a est
+    maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde ut libero, neque incidunt, molestiae vel at
+    delectus quia ipsa reprehenderit ad officia nihil, harum fugiat? Vitae, facere officiis? Animi, velit. Lorem ipsum
+    dolor sit amet consectetur adipisicing elit. Tenetur, doloremque maiores repudiandae explicabo necessitatibus magni
+    laudantium voluptatum, illum, ipsam exercitationem minima animi harum eos at voluptatem a. Dolor, consequuntur
+    itaque.</p>
 
-    <button class="w3-button w3-light-grey w3-padding-large w3-section" onclick="window.open('{{ 'files/resume.pdf' | url}}')">
-      <i class="fa fa-download"></i> Download Resume
-    </button>
-    
-    <!-- Grid for pricing tables -->
-    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">5GB Storage</li>
-          <li class="w3-padding-16">Mail Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 10</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">50GB Storage</li>
-          <li class="w3-padding-16">Endless Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 25</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-    <!-- End Grid/Pricing tables -->
+  <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">11+</span><br>
+      Partners
     </div>
-    
-    <!-- Testimonials -->
-    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
-    <img src="{{ '/img/w3images/bandmember.jpg' | url}}" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
-    <p>Jane Doe saved us from a web disaster.</p><br>
-    
-    <img src="{{ '/img/w3images/avatar_g2.jpg' | url }}" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
-    <p>No one is better than Jane Doe.</p>
-  <!-- End About Section -->
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">55+</span><br>
+      Projects Done
+    </div>
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">89+</span><br>
+      Happy Clients
+    </div>
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">150+</span><br>
+      Meetings
+    </div>
   </div>
+
+  <!-- Grid for pricing tables -->
+  <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
+  <div class="w3-row-padding" style="margin:0 -16px">
+    <div class="w3-half w3-margin-bottom">
+      <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+        <li class="w3-padding-16">Web Design</li>
+        <li class="w3-padding-16">Photography</li>
+        <li class="w3-padding-16">5GB Storage</li>
+        <li class="w3-padding-16">Mail Support</li>
+        <li class="w3-padding-16">
+          <h2>$ 10</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-half">
+      <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+        <li class="w3-padding-16">Web Design</li>
+        <li class="w3-padding-16">Photography</li>
+        <li class="w3-padding-16">50GB Storage</li>
+        <li class="w3-padding-16">Endless Support</li>
+        <li class="w3-padding-16">
+          <h2>$ 25</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+    <!-- End Grid/Pricing tables -->
+  </div>
+
+  <!-- Testimonials -->
+  <h2 class="w3-text-light-grey">Testimonials</h2>
+  <div class="cards">
+
+    <input type="radio" id="radio-1" name="radio-card" checked>
+    <article class="card" style="--angle:4deg">
+      <img class="card-img" src="https://picsum.photos/id/21/200/300">
+      <div class="card-data">
+        <span class="card-num">1/7</span>
+        <h2>Alejandro Escamilla</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores accusantium cumque atque? Ex
+            voluptatem quisquam temporibus. Provident rerum quae nemo eligendi fugiat!</p>
+          <footer>
+            <label for="radio-7" aria-label="Previous">&#10094;</label>
+            <label for="radio-2" aria-label="Next">&#10095;</label>
+          </footer>
+      </div>
+    </article>
+
+    <!-- card 2 -->
+    <input type="radio" id="radio-2" name="radio-card">
+    <article class="card" style="--angle:-8deg">
+      <img class="card-img" src="https://picsum.photos/id/30/200/300">
+      <div class="card-data">
+        <span class="card-num">2/7</span>
+        <h2>Shyamanta Baruah</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores accusantium cumque atque? Ex
+            voluptatem quisquam temporibus. Provident rerum quae nemo eligendi fugiat!</p>
+          <footer>
+            <label for="radio-1" aria-label="Previous">&#10094;</label>
+            <label for="radio-3" aria-label="Next">&#10095;</label>
+          </footer>
+      </div>
+    </article>
+
+    <!-- card 3 -->
+    <input type="radio" id="radio-3" name="radio-card">
+    <article class="card" style="--angle:-7deg">
+      <img class="card-img" src="https://picsum.photos/id/39/200/300">
+      <div class="card-data">
+        <span class="card-num">3/7</span>
+        <h2>Luke Chesser</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores accusantium cumque atque? Ex
+            voluptatem quisquam temporibus. Provident rerum quae nemo eligendi fugiat!</p>
+          <footer>
+            <label for="radio-2" aria-label="Previous">&#10094;</label>
+            <label for="radio-4" aria-label="Next">&#10095;</label>
+          </footer>
+      </div>
+    </article>
+
+    <!-- card 4 -->
+    <input type="radio" id="radio-4" name="radio-card">
+    <article class="card" style="--angle:11deg">
+      <img class="card-img" src="https://picsum.photos/id/103/200/300">
+      <div class="card-data">
+        <span class="card-num">4/7</span>
+        <h2>Ilham Rahmansyah</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores accusantium cumque atque? Ex
+            voluptatem quisquam temporibus. Provident rerum quae nemo eligendi fugiat!</p>
+          <footer>
+            <label for="radio-3" aria-label="Previous">&#10094;</label>
+            <label for="radio-5" aria-label="Next">&#10095;</label>
+          </footer>
+      </div>
+    </article>
+
+    <!-- card 5 -->
+    <input type="radio" id="radio-5" name="radio-card">
+    <article class="card" style="--angle:13deg">
+      <img class="card-img" src="https://picsum.photos/id/175/200/300">
+      <div class="card-data">
+        <span class="card-num">5/7</span>
+        <h2>petradr</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores accusantium cumque atque? Ex
+            voluptatem quisquam temporibus. Provident rerum quae nemo eligendi fugiat!</p>
+          <footer>
+            <label for="radio-4" aria-label="Previous">&#10094;</label>
+            <label for="radio-6" aria-label="Next">&#10095;</label>
+          </footer>
+      </div>
+    </article>
+
+    <!-- card 6 -->
+    <input type="radio" id="radio-6" name="radio-card">
+    <article class="card" style="--angle:-17deg">
+      <img class="card-img" src="https://picsum.photos/id/349/200/300">
+      <div class="card-data">
+        <span class="card-num">6/7</span>
+        <h2>Caleb George</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores accusantium cumque atque? Ex
+            voluptatem quisquam temporibus. Provident rerum quae nemo eligendi fugiat!</p>
+          <footer>
+            <label for="radio-5" aria-label="Previous">&#10094;</label>
+            <label for="radio-7" aria-label="Next">&#10095;</label>
+          </footer>
+      </div>
+    </article>
+
+    <!-- card 7 -->
+    <input type="radio" id="radio-7" name="radio-card">
+    <article class="card" style="--angle:20deg">
+      <img class="card-img" src="https://picsum.photos/id/401/200/300">
+      <div class="card-data">
+        <span class="card-num">7/7</span>
+        <h2>Austin Ban</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores accusantium cumque atque? Ex
+            voluptatem quisquam temporibus. Provident rerum quae nemo eligendi fugiat!</p>
+          <footer>
+            <label for="radio-6" aria-label="Previous">&#10094;</label>
+            <label for="radio-1" aria-label="Next">&#10095;</label>
+          </footer>
+      </div>
+    </article>
+  </div>
+  <!-- End About Section -->
+</div>
 
 
 <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">My Photos</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-
-  {#  <div class="w3-half">
-    {% for post in collections.photo | head(-8) %}
-      {% if loop.index==4 %}
-      </div><div class="w3-half">
-      {% endif %}
-        <a href="{{ post.url | url}}"><img src = "{{ post.data.image | url }}" style="width:100%" > </a>
-        
-    {% endfor %}
-    
+<div id="photos" class="portfolio-container">
+  <h1>The Purest of Doggos</h1>
+  <div class="grid-container">
+    <div>
+      <img class='grid-item grid-item-1'
+        src='https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'
+        alt=''>
+      <p>"I'm so happy today!"</p>
     </div>
-#}
-    
-<style>
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create two equal columns that sit next to each other */
-.column {
-  flex: 50%;
-  max-width: 50%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-  {% raw %}
-@media (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-  {% endraw %}
-
-</style>
-<div class="row"> 
-  <div class="column">
-   {% for post in collections.photo | head(-8) %}
-   {% if loop.index==4 %}
-      </div><div class="column">
-      {% endif %}
-  
-    <a href="{{ post.url | url}}"><img src = "{{ post.data.image | url }}" style="width:100%;margin-bottom:0px" > </a>
-  
-  {% endfor %}
-  </div>
-  </div>
-
-
-     
-    <!-- End photo grid -->
+    <div>
+      <img class='grid-item grid-item-2'
+        src='https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'
+        alt=''>
+      <p>"I see those nugs."</p>
     </div>
-  <!-- End Portfolio Section -->
+    <div>
+      <img class='grid-item grid-item-3'
+        src='https://images.unsplash.com/photo-1510771463146-e89e6e86560e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'
+        alt=''>
+      <p>"I love you so much!"</p>
+    </div>
+    <div>
+      <img class='grid-item grid-item-4'
+        src='https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'
+        alt=''>
+      <p>"I'm the baby of the house!"</p>
+    </div>
+    <div>
+      <img class='grid-item grid-item-5'
+        src='https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'
+        alt=''>
+      <p>"Are you gunna throw the ball?"</p>
+    </div>
+    <div>
+      <img class='grid-item grid-item-6'
+        src='https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'
+        alt=''>
+      <p>"C'mon friend!"</p>
+    </div>
+    <div>
+      <img class='grid-item grid-item-7'
+        src='https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'
+        alt=''>
+      <p>"A rose for mommy!"</p>
+    </div>
+    <div>
+      <img class='grid-item grid-item-8'
+        src='https://images.unsplash.com/photo-1518717758536-85ae29035b6d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'
+        alt=''>
+      <p>"You gunna finish that?"</p>
+    </div>
+    <div>
+      <img class='grid-item grid-item-9'
+        src='https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'
+        alt=''>
+      <p>"We can't afford a cat!"</p>
+    </div>
+    <div>
+      <img class='grid-item grid-item-10'
+        src='https://images.unsplash.com/photo-1504595403659-9088ce801e29?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'
+        alt=''>
+      <p>"Dis my fren!"</p>
+    </div>
   </div>
- <div class="w3-content w3-justify w3-text-grey w3-padding-64">
-<h1>Latest 3 Posts</h1>
+</div
 
-{% set postslist = collections.posts | head(-3) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
-
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
-</div>
 <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Contact Me</h2>
-    <hr style="width:200px" class="w3-opacity">
+<div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+  <h2 class="w3-text-light-grey">Contact Me</h2>
+  <hr style="width:200px" class="w3-opacity">
 
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
-    </div><br>
-    <p>Lets get in touch. Send me a message:</p>
+  <div class="w3-section">
+    <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+    <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+    <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+  </div><br>
+  <p>Lets get in touch. Send me a message:</p>
 
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
+  <form action="/action_page.php" target="_blank">
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+    <p>
+      <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </p>
+  </form>
   <!-- End Contact Section -->
-  </div>
-
-
+</div>
