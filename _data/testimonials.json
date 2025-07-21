@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "angle": "4deg",
+    "image": "img/w3images/testimonial_1.jpg",
+    "name": "Noah & maya",
+    "quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores accusantium cumque atque? Ex voluptatem quisquam temporibus. Provident rerum quae nemo eligendi fugiat!",
+    "prev": "7",
+    "next": "2"
+  },
+  {
+    "id": "2",
+    "angle": "-8deg",
+    "image": "img/w3images/testimonial_2.jpg",
+    "name": "Nico & Luna",
+    "quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores accusantium cumque atque? Ex voluptatem quisquam temporibus. Provident rerum quae nemo eligendi fugiat!",
+    "prev": "1",
+    "next": "3"
+  },
+  {
+    "id": "3",
+    "angle": "-7deg",
+    "image": "img/w3images/testimonial_3.jpg",
+    "name": "Micah & Sora",
+    "quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores accusantium cumque atque? Ex voluptatem quisquam temporibus. Provident rerum quae nemo eligendi fugiat!",
+    "prev": "2",
+    "next": "4"
+  },
+  {
+    "id": "4",
+    "angle": "11deg",
+    "image": "img/w3images/testimonial_4.jpg",
+    "name": "Kian & Mira",
+    "quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores accusantium cumque atque? Ex voluptatem quisquam temporibus. Provident rerum quae nemo eligendi fugiat!",
+    "prev": "3",
+    "next": "5"
+  },
+  {
+    "id": "5",
+    "angle": "13deg",
+    "image": "img/w3images/testimonial_5.jpg",
+    "name": "Luca & Sara",
+    "quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores accusantium cumque atque? Ex voluptatem quisquam temporibus. Provident rerum quae nemo eligendi fugiat!",
+    "prev": "4",
+    "next": "6"
+  },
+  {
+    "id": "6",
+    "angle": "-17deg",
+    "image": "img/w3images/testimonial_6.jpg",
+    "name": "Ivan & Nia",
+    "quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores accusantium cumque atque? Ex voluptatem quisquam temporibus. Provident rerum quae nemo eligendi fugiat!",
+    "prev": "5",
+    "next": "7"
+  },
+  {
+    "id": "7",
+    "angle": "20deg",
+    "image": "img/w3images/testimonial_7.jpg",
+    "name": "Ezra & Nora",
+    "quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores accusantium cumque atque? Ex voluptatem quisquam temporibus. Provident rerum quae nemo eligendi fugiat!",
+    "prev": "6",
+    "next": "1"
+  }
+]

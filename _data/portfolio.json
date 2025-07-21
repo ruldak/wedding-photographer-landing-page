@@ -1,0 +1,42 @@
+[
+  {
+    "image": "img/w3images/portofolio_1.jpg",
+    "name": "Elias & Zoe"
+  },
+  {
+    "image": "img/w3images/portofolio_2.jpg",
+    "name": "Sam & Hana"
+  },
+  {
+    "image": "img/w3images/portofolio_3.jpg",
+    "name": "Noah & Maya"
+  },
+  {
+    "image": "img/w3images/portofolio_5.jpg",
+    "name": "Rio & Aria"
+  },
+  {
+    "image": "img/w3images/portofolio_7.jpg",
+    "name": "Amir & Lina"
+  },
+  {
+    "image": "img/w3images/portofolio_8.jpg",
+    "name": "Nico & Luna"
+  },
+  {
+    "image": "img/w3images/portofolio_4.jpg",
+    "name": "Zayn & Elina"
+  },
+  {
+    "image": "img/w3images/portofolio_10.jpg",
+    "name": "Micah & Sora"
+  },
+  {
+    "image": "img/w3images/portofolio_6.jpg",
+    "name": "Theo & Nora"
+  },
+  {
+    "image": "img/w3images/portofolio_9.jpg",
+    "name": "Noel & Layla"
+  }
+]
