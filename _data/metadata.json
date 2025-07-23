@@ -1,15 +1,9 @@
 {
   "title": "John Doe",
   "url": "https://myurl.com/",
-  "description": "Photographer and Web Designer",
-  "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
-    "filename": "feed.xml",
-    "path": "/feed/feed.xml",
-    "id": "https://myurl.com/"
-  },
+  "description": "Capturing Your Love Story, One Meaningful Frame at a Time.",
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Ruldak",
+    "email": "ruldak3306@gmail.com"
   }
 }
