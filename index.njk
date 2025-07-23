@@ -85,7 +85,7 @@ url: /#
   </div>
 
   <!-- Testimonials -->
-  <h2 class="w3-text-light-grey">Testimonials</h2>
+  <h2 class="w3-text-light-grey" id="testimonials">Testimonials</h2>
   <div class="cards">
     {% for testimonial in testimonials %}
     <input type="radio" id="radio-{{ testimonial.id }}" name="radio-card" {% if loop.first %}checked{% endif %}>
