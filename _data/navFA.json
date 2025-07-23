@@ -1,7 +1,7 @@
 {
-    "Home" : "fa-home",
-    "About" : "fa-user",
-    "Testimonial" : "fa-comments",
-    "Photos" : "fa-eye",
-    "Contact" : "fa-envelope"
+  "Home": "fa-home",
+  "About": "fa-user",
+  "Gallery": "fa-th",
+  "Testimonials": "fa-comment",
+  "Book Now": "fa-envelope"
 }

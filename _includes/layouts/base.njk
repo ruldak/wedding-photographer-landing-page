@@ -39,6 +39,10 @@
     justify-content: center;
   }
 
+  .w3-sidebar .w3-bar-item {
+    margin-bottom: 15px;
+  }
+
   /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
   #main {
     margin-left: 120px
@@ -71,7 +75,7 @@
     <div class="sidebar-content">
       {%- for entry in collections.all | eleventyNavigation %}
       <a href="{{ entry.url | url }}"
-        class="w3-bar-item w3-button w3-padding-large {% if entry.url == page.url %} w3-black {% else %} w3-hover-black {% endif %}">
+        class="w3-bar-item w3-button {% if entry.url == page.url %} w3-black {% else %} w3-hover-black {% endif %}">
         <i class="fa {{ navFA[entry.title]}} w3-xxlarge"></i>
         <p>{{ entry.title }}</p>
       </a>

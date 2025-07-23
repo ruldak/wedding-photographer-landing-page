@@ -1,7 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
 /* testimonials */
 @property --angle {
   syntax: "<angle>";
