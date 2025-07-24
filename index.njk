@@ -84,7 +84,7 @@ url: /#
     {% for testimonial in testimonials %}
     <input type="radio" id="radio-{{ testimonial.id }}" name="radio-card" {% if loop.first %}checked{% endif %}>
     <article class="card" style="--angle:{{ testimonial.angle }}">
-      <img class="card-img" loading="lazy" src="{{ testimonial.image }}">
+      <img class="card-img" loading="lazy" src="{{ testimonial.image | url }}">
       <div class="card-data">
         <span class="card-num">{{ loop.index }}/{{ testimonials.length }}</span>
         <h2>{{ testimonial.name }}</h3>
