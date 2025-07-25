@@ -19,6 +19,16 @@ Initial template structure adapted from [Dark-Portfolio-Template-11ty](https://g
 
 The underlying static site generator, [Eleventy](https://www.11ty.dev/), was created by Zach Leatherman and is used under the MIT License (see `LICENSE` file for details).
 
+#### Carousel Element
+- Author: Chris Bolson
+- Source: https://codepen.io/cbolson/pen/MYgrjrm
+- License: MIT License
+
+#### Gallery Element
+- Author: Russ Perry
+- Source: https://codepen.io/rperry1886/pen/KKwbQNP
+- License: MIT License
+
 ## Getting Started
 
 1.  **Clone this repository**
